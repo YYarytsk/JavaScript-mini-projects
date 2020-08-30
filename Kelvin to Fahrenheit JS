@@ -1,0 +1,14 @@
+// temperature is Kalvin stored in a variable "kelvi"
+var kelvinTemp = 301;
+
+// temperature is celsius stored in a variable "celsius"
+var celsiusTemp = kelvinTemp - 273.15;
+
+// convert celsius to fahrenheit stored in a variable "fahrenheit"
+var fahrenheitTemp =  celsiusTemp * (9/5) + 32;
+
+// round the value of fahrenheit down and assign it to 'fahrenheit'
+fahrenheitTemp = Math.floor(fahrenheitTemp);
+
+// use a string concatination to leave display a massage 
+console.log('The temperature is ' + fahrenheitTemp + ' degrees Fahrenheit')
